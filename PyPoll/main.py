@@ -39,7 +39,6 @@ for i in range(len(candidate_list)):
 a = total_votes/100
 percent_votes = [x / a for x in can_tot_votes]
 percent_votes = [round(x,3) for x in percent_votes]
-print(percent_votes)
 
 #finding the index of max votes to find the winner of popular vote
 max_votes = 0
